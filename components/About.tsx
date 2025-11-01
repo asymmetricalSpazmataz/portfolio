@@ -56,6 +56,7 @@ const About = () => {
                     alt="Melissandre" 
                     fill
                     className="object-cover rounded-2xl"
+                    style={{ filter: "grayscale(50%)" }}
                   />
                 </div>
               </div>

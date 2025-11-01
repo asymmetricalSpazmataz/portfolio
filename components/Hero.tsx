@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiArrowDown } from "react-icons/hi";
+import MorphingPolygon from "./MorphingPolygon";
 
 const Hero = () => {
   return (
@@ -16,6 +17,10 @@ const Hero = () => {
       {/* Animated circles */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-teal-500/10 rounded-full blur-3xl animate-float"></div>
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "1s" }}></div>
+
+      {/* Morphing polygons */}
+      <MorphingPolygon color="rgba(0, 255, 100, 0.15)" outline={true} delay={0} />
+      <MorphingPolygon delay={2} />
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center">
