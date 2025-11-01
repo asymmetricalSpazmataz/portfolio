@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Email</h3>
-                  <p className="text-gray-400">your.email@example.com</p>
+                  <p className="text-gray-400">truiceZero@email.com</p>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Location</h3>
-                  <p className="text-gray-400">San Francisco, CA</p>
+                  <p className="text-gray-400">Middle of Nowhere, NY</p>
                 </div>
               </div>
             </motion.div>
