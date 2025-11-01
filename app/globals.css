@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #0e1212; /* dark grey with a hint of teal */
+  --foreground: #e6f2ef; /* soft near-white with a cool tint */
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,15 +31,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a1a1a;
+  background: #111415;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3b82f6;
+  background: #14b8a6; /* teal-500 */
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2563eb;
+  background: #0d9488; /* teal-600 */
 }
 

@@ -17,7 +17,7 @@ const Projects = () => {
       tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
       github: "https://github.com",
       demo: "https://example.com",
-      color: "from-blue-500 to-cyan-500",
+      color: "from-teal-500 to-emerald-500",
     },
     {
       title: "AI Chat Application",
@@ -25,7 +25,7 @@ const Projects = () => {
       tech: ["React", "Node.js", "OpenAI", "Socket.io"],
       github: "https://github.com",
       demo: "https://example.com",
-      color: "from-purple-500 to-pink-500",
+      color: "from-emerald-500 to-lime-500",
     },
     {
       title: "Task Management System",
@@ -41,12 +41,12 @@ const Projects = () => {
       tech: ["Next.js", "Prisma", "AWS", "Vercel"],
       github: "https://github.com",
       demo: "https://example.com",
-      color: "from-orange-500 to-red-500",
+      color: "from-teal-400 to-green-500",
     },
   ];
 
   return (
-    <section id="projects" className="py-20 px-6 bg-black/20">
+    <section id="projects" className="py-20 px-6 bg-gray-900/20">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           ref={ref}
@@ -68,7 +68,7 @@ const Projects = () => {
                 initial={{ opacity: 0, y: 50 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="group relative bg-gray-900/50 rounded-xl overflow-hidden border border-gray-800 hover:border-blue-500/50 transition-all duration-300"
+                className="group relative bg-gray-900/50 rounded-xl overflow-hidden border border-gray-800 hover:border-teal-500/50 transition-all duration-300"
               >
                 <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
                 
@@ -84,7 +84,7 @@ const Projects = () => {
                     {project.tech.map((tech) => (
                       <span
                         key={tech}
-                        className="px-3 py-1 bg-blue-500/10 text-blue-400 rounded-full text-sm"
+                        className="px-3 py-1 bg-teal-500/10 text-teal-400 rounded-full text-sm"
                       >
                         {tech}
                       </span>

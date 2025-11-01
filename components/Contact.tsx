@@ -11,7 +11,7 @@ const Contact = () => {
   });
 
   return (
-    <section id="contact" className="py-20 px-6 bg-black/20">
+    <section id="contact" className="py-20 px-6 bg-gray-900/20">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           ref={ref}
@@ -34,8 +34,8 @@ const Contact = () => {
               className="space-y-8"
             >
               <div className="flex items-start space-x-4">
-                <div className="bg-blue-500/10 p-4 rounded-lg">
-                  <FaEnvelope className="text-2xl text-blue-500" />
+                <div className="bg-teal-500/10 p-4 rounded-lg">
+                  <FaEnvelope className="text-2xl text-teal-500" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Email</h3>
@@ -44,8 +44,8 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="bg-blue-500/10 p-4 rounded-lg">
-                  <FaPhone className="text-2xl text-blue-500" />
+                <div className="bg-teal-500/10 p-4 rounded-lg">
+                  <FaPhone className="text-2xl text-teal-500" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Phone</h3>
@@ -54,8 +54,8 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="bg-blue-500/10 p-4 rounded-lg">
-                  <FaMapMarkerAlt className="text-2xl text-blue-500" />
+                <div className="bg-teal-500/10 p-4 rounded-lg">
+                  <FaMapMarkerAlt className="text-2xl text-teal-500" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Location</h3>
@@ -77,7 +77,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-4 py-3 bg-gray-900/50 border border-gray-800 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
+                  className="w-full px-4 py-3 bg-gray-900/50 border border-gray-800 rounded-lg focus:outline-none focus:border-teal-500 transition-colors"
                   placeholder="Your name"
                 />
               </div>
@@ -89,7 +89,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-4 py-3 bg-gray-900/50 border border-gray-800 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
+                  className="w-full px-4 py-3 bg-gray-900/50 border border-gray-800 rounded-lg focus:outline-none focus:border-teal-500 transition-colors"
                   placeholder="your.email@example.com"
                 />
               </div>
@@ -101,14 +101,14 @@ const Contact = () => {
                 <textarea
                   id="message"
                   rows={5}
-                  className="w-full px-4 py-3 bg-gray-900/50 border border-gray-800 rounded-lg focus:outline-none focus:border-blue-500 transition-colors resize-none"
+                  className="w-full px-4 py-3 bg-gray-900/50 border border-gray-800 rounded-lg focus:outline-none focus:border-teal-500 transition-colors resize-none"
                   placeholder="Your message"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300"
+                className="w-full px-8 py-3 bg-gradient-to-r from-teal-500 to-emerald-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-teal-500/50 transition-all duration-300"
               >
                 Send Message
               </button>

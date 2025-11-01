@@ -32,15 +32,15 @@ const About = () => {
                 When I&apos;m not coding, you can find me exploring new crafts, contributing to cross disciplinary projects, or simply enjoying the outdoors with my Golden Retriever.
               </p>
               <div className="flex flex-wrap gap-4">
-                <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 px-6 py-3 rounded-lg">
+                <div className="bg-gradient-to-r from-teal-500/10 to-emerald-500/10 border border-teal-500/20 px-6 py-3 rounded-lg">
                   <p className="text-3xl font-bold text-primary">10+</p>
                   <p className="text-gray-400">Years Experience</p>
                 </div>
-                <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 px-6 py-3 rounded-lg">
+                <div className="bg-gradient-to-r from-teal-500/10 to-emerald-500/10 border border-teal-500/20 px-6 py-3 rounded-lg">
                   <p className="text-3xl font-bold text-primary">50+</p>
                   <p className="text-gray-400">Projects Completed</p>
                 </div>
-                <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 px-6 py-3 rounded-lg">
+                <div className="bg-gradient-to-r from-teal-500/10 to-emerald-500/10 border border-teal-500/20 px-6 py-3 rounded-lg">
                   <p className="text-3xl font-bold text-primary">30+</p>
                   <p className="text-gray-400">Happy Clients</p>
                 </div>
@@ -48,8 +48,8 @@ const About = () => {
             </div>
 
             <div className="relative">
-              <div className="relative h-96 rounded-2xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-2xl blur-xl"></div>
+              <div className="relative h-96 rounded-2xl bg-gradient-to-br from-teal-500/20 to-emerald-500/20 flex items-center justify-center overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-teal-500/10 to-emerald-500/10 rounded-2xl blur-xl"></div>
                 <div className="relative w-full h-full z-10">
                   <Image 
                     src="/resources/misspants.jpg" 

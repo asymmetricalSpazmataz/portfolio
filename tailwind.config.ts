@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#3b82f6",
-        secondary: "#8b5cf6",
+        primary: "#14b8a6",
+        secondary: "#10b981",
       },
       animation: {
         'float': 'float 3s ease-in-out infinite',
